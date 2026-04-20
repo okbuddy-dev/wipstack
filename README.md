@@ -52,6 +52,15 @@ $ wip --json list
 
 State is stored at `$XDG_CONFIG_HOME/wipstack/stack.json` (defaulting to `~/.config/wipstack/stack.json`).
 
+## Build and deploy
+
+
+```
+$ git tag -a v0.2.1 -m "add versioning"
+$ git push github v0.2.1
+$ goreleaser release --clean
+```
+
 ## License
 
 Unlicense
