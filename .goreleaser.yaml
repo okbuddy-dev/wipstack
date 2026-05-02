@@ -45,6 +45,10 @@ changelog:
       - "^test:"
 
 release:
+  github:
+    owner: okbuddy-dev
+    name: wipstack
+
   footer: >-
 
     ---
